@@ -2,6 +2,8 @@ package com.finance.server.controller;
 
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "http://localhost:3000")
+
 @RestController
 public class HelloController {
 
@@ -12,6 +14,6 @@ public class HelloController {
 
     @GetMapping("/api/greet")
     public String greet() {
-        return "Hi from /api/greet";
+        return "Greetings from the spring boot application";
     }
 }
