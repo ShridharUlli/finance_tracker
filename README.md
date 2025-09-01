@@ -1,5 +1,6 @@
-# Vue Js Todo
+# Finance Tracker
 ### Lets start building
 
 ## Logo
-![Finance Tracker Logo](documents/images/black_logo.png)
+<img src="documents/images/black_logo.png" alt="Finance Tracker White Logo" width="200">
+<img src="documents/images/black_logo.png" alt="Finance Tracker Black Logo" width="200">
