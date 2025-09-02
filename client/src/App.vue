@@ -20,9 +20,7 @@ const persons = ref([])
 
 onMounted(()=>{
   apiClient.get('/api/greet').then(res => {
-    debugger
-      persons.value = res.data
-      
+      persons.value = res.data      
     }).catch(error =>{
     })
 })

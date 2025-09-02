@@ -9,7 +9,6 @@ import axios from 'axios';
 
 const apiClient = {
   get: (url)=>{
-    debugger
     return Promise.resolve({
       data: [
         {lname: "U", fname: 'Shridhar'},
